@@ -1,0 +1,103 @@
+@media (max-width: 768px){
+    ::-webkit-scrollbar {
+        background: none;
+        width: 0
+      }
+      
+
+
+    /* Splash */
+    .splash .container {
+        width: auto;
+    }
+
+    .ant-switch {
+        margin: 0px 5px;
+    }
+
+    .splash .switch-container {
+        width: auto;
+        left: 65%;
+    }
+
+    /* Profile */
+    .section .profile-items {
+        flex-direction: column;
+    }
+
+    .section .profile-item {
+        margin-top: 25px;
+        width: 100%;
+        margin-right: 0;
+        justify-content: left;
+    }
+
+    .section .body-text {
+        column-count: 1;
+    }
+
+    /* Experience */
+    .experience-body {
+        flex-direction: column;
+    }
+
+    .circle-chain {
+        width: 100%;
+    }
+
+    .detailed-text {
+        padding-left: 0;
+    }
+
+    /* Skills */
+    .skills-body {
+        flex-direction: column;
+    }
+
+    .half-page.right {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .half-page.left {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    /* Projects */
+    .project-wrapper {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .project-detail {
+        width: 100%;
+        margin-top: 7.5vw;
+    }
+
+    .ant-modal {
+        width: calc(100vw - 20px) !important;
+    }
+
+    .devices-container {
+        width: 100%;
+    }
+
+    .laptop .screen {
+        width: 69%;
+        height: 30vw;
+        top: 2vw;
+    }
+
+    /* Contact */
+    .contact-body {
+        display: block;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+
+
+}
